@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package format="2">
+  <name>tether_manager</name>
+  <version>0.0.0</version>
+  <description>The tether_manager package contains a node counting the number of turns the robot has made since the beginning of its mission.</description>
+  <author>Auguste Bourgois</author>
+  <maintainer email="auguste@forssea-robotics.fr">Auguste Bourgois</maintainer>
+  <license>None</license>
+  <url type="repository">https://github.com/forssea-robotics/tether_manager</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <export></export>
+</package>
