@@ -2,7 +2,6 @@
 
 from math import pi
 
-import numpy as np
 import rospy
 from sensor_msgs.msg import Imu
 from std_msgs.msg import Float32
@@ -11,7 +10,7 @@ from transforms3d.euler import quat2euler
 
 
 def to_angle(vec):
-    return (vec + np.pi) % (2 * np.pi) - np.pi
+    return (vec + pi) % (2 * pi) - pi
 
 
 class TurnCounter(object):
